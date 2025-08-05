@@ -2,8 +2,10 @@
 
 
 @theme {
-  --color-*: initial;
   --color-primary: #213D34;
   --color-secondary: #D9EF78;
   --color-tertiary: #F1F2ED;
+  
+  --font-syne: "Syne", sans-serif;
+  --font-work-sans: "Work Sans", "sans-serif";
 }
