@@ -14,7 +14,6 @@ export default function Test() {
         <span className="text-secondary">H4</span> AIChefMate Font Syne
       </h4>
       <p className=" text-primary font-work-sans ">
-        {" "}
         <span className="text-secondary">p</span> AIChefMate work Sans
       </p>
     </div>

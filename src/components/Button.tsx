@@ -7,12 +7,15 @@ export default function Button({
   children,
   varient,
   size,
+  className,
 }: {
   children: React.ReactNode;
   varient: varientType;
   size: sizeType;
+  className?: string;
 }) {
-  // continue here
+
+  const commonClass = "flex flex-row px-10 m-2.5  font-medium py-[18px] rounded-4xl font-work-sans cursor-pointer"
 
   const varientClass = {
     primary: "bg-primary text-white",
@@ -23,7 +26,7 @@ export default function Button({
   if (size === "wide") {
     return (
       <button
-        className={`${varientClass.secondary} border-primary border-2 flex flex-row px-10 m-2.5  font-medium py-[18px] rounded-4xl font-work-sans`}
+        className={`${commonClass} ${varientClass.secondary} border-primary border-2  ${className}`}
       >
         {children}
         <img src={rightArrow} className=" size-[22px]" alt="rightArrow" />
@@ -32,7 +35,7 @@ export default function Button({
   } else if (size === "small") {
     return (
       <button
-        className={`${varientClass[varient]} border-primary border-2 flex flex-row px-10 m-2.5  font-medium py-[18px] rounded-4xl font-work-sans`}
+        className={`${varientClass[varient]} ${commonClass}  border-primary border-2 ${className} ` }
       >
         <img src={rightArrow} className=" size-[22px]" alt="rightArrow" />
       </button>
@@ -40,7 +43,7 @@ export default function Button({
   } else
     return (
       <button
-        className={`${varientClass[varient]} flex flex-row px-10 m-2.5  font-medium py-[18px] rounded-4xl font-work-sans`}
+        className={`${commonClass} ${varientClass[varient]} ${className} `}
       >
         {children}
       </button>
