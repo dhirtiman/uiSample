@@ -1,12 +1,10 @@
-@import "tailwindcss";
-
+@import 'tailwindcss';
 
 @theme {
-  --color-primary: #213D34;
-  --color-secondary: #D9EF78;
-  --color-tertiary: #F1F2ED;
-  
-  
-  --font-syne: "Syne", sans-serif;
-  --font-work-sans: "Work Sans", "sans-serif";
+  --color-primary: #213d34;
+  --color-secondary: #d9ef78;
+  --color-tertiary: #f1f2ed;
+
+  --font-syne: 'Syne', sans-serif;
+  --font-work-sans: 'Work Sans', 'sans-serif';
 }
