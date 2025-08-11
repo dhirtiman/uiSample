@@ -15,7 +15,7 @@ export default function Button({
   className?: string;
 }) {
   const commonClass =
-    'flex flex-row px-10 m-2.5  font-medium py-[18px] rounded-4xl font-work-sans cursor-pointer';
+    'flex flex-row px-10 m-2.5  font-medium py-[18px] text-[22px] rounded-[50px] font-work-sans  cursor-pointer';
 
   const varientClass = {
     primary: 'bg-primary text-white',
@@ -26,7 +26,7 @@ export default function Button({
   if (size === 'wide') {
     return (
       <button
-        className={`${commonClass} ${varientClass.secondary} border-primary border-2 ${className}`}
+        className={`${commonClass} ${varientClass.secondary}   border-primary border-2 ${className}`}
       >
         {children}
         <img src={rightArrow} className="size-[22px]" alt="rightArrow" />

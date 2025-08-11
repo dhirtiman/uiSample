@@ -3,8 +3,8 @@ import Button from './components/Button';
 import Test from './Test';
 import Tag from './components/Tag';
 import Heading from './components/Heading';
-import Card from './components/Card';
-import Header from './components/Header/Header';
+import Card from './components/cards/Card';
+import Header from './components/header/Header';
 function App() {
   return (
     <div className="flex flex-col p-8">
