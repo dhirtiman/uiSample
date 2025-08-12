@@ -6,12 +6,13 @@ import Rectangle from './components/shapes/Rectangle';
 // import Heading from "./components/Heading";
 // import Card from "./components/Card";
 import Header from './components/header/Header';
-import Card1 from './components/cards/Card1';
+import CardGroupHome from './components/cards/CardGroupHome';
 function App() {
   return (
     <div className="flex h-lvh min-h-screen w-full flex-col items-center">
       
       <div className="bg-tertiary flex h-full w-full flex-col">
+        <CardGroupHome/>
         <Header />
         <div className="bg-tertiary flex h-5/7 w-5/6 flex-col items-center self-center ">
           <h1 className="text-primary font-syne w-1/2 text-6xl font-medium">
@@ -29,7 +30,7 @@ function App() {
             Start For Free
           </Button>
 
-          <Card1 title='30 000 +' subtitle='Happy Users'></Card1>
+          
         </div>
       </div>
       <Rectangle className="absolute top-6/7 right-0" />
