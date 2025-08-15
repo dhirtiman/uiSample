@@ -1,11 +1,11 @@
 import React from 'react';
 import Line13 from '../assets/line13.svg';
 
-export default function Heading({ children }: { children: React.ReactNode }) {
+export default function Heading({ children,className }: { children: React.ReactNode, className?: string, }) {
   const childrenArray = React.Children.toArray(children);
 
   return (
-    <div className="flex items-start gap-3">
+    <div className={`flex items-start gap-3 ${className}`}>
       {/* Left: Title */}
       <span className="text-primary font-syne mt-7 text-[55px] leading-[1.1] font-medium">
         {childrenArray[0]}

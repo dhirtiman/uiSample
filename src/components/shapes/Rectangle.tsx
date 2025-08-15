@@ -1,11 +1,12 @@
 type RectangleProps = {
-    className? : string
-}
+  className?: string;
+  right?: boolean;
+};
 
-
-export default function Rectangle({className}: RectangleProps) {
-
-    return (
-        <div className = {`bg-tertiary w-2xl h-52 rounded-tl-[968px] rounded-bl-[968px] ${className}`}></div>
-    )
+export default function Rectangle({ className, right = true }: RectangleProps) {
+  return (
+    <div
+      className={`bg-tertiary h-52 w-2xl ${right ? 'rounded-tl-[968px] rounded-bl-[968px]' : 'rounded-tr-[968px] rounded-br-[968px]'} ${className}`}
+    ></div>
+  );
 }
