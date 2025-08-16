@@ -3,6 +3,8 @@ import Rectangle from './components/shapes/Rectangle';
 import Home from './components/pages/Home';
 import Demo from './components/pages/Demo';
 import HowItWorks from './components/pages/HowItWorks';
+import Benefits from './components/pages/Benefits';
+import Recipes from './components/pages/Recipes';
 // import Tag from './components/Tag'
 // import Test from "./Test";
 // import Card from "./components/Card";
@@ -15,6 +17,8 @@ function App() {
       <Rectangle className="absolute top-6/7 right-0" />
       <Demo/>
       <HowItWorks/>
+      <Benefits/>
+      <Recipes/>
 
     </div>
   );

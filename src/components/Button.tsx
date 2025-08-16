@@ -10,7 +10,7 @@ export default function Button({
   className,
   onClick,
 }: {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   varient: varientType;
   size: sizeType;
   className?: string;
@@ -29,10 +29,14 @@ export default function Button({
     return (
       <button
         onClick={onClick}
-        className={`${commonClass} ${varientClass.secondary} border-primary border-2 ${className}`}
+        className={`${commonClass} ${varientClass.secondary} border-primary w-fit border-2 ${className}`}
       >
         {children}
-        <img src={rightArrow} className="size-[22px]" alt="rightArrow" />
+        <img
+          src={rightArrow}
+          className="mx-2 size-[22px] self-center"
+          alt="rightArrow"
+        />
       </button>
     );
   } else if (size === 'small') {
