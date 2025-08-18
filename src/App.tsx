@@ -5,6 +5,7 @@ import Demo from './components/pages/Demo';
 import HowItWorks from './components/pages/HowItWorks';
 import Benefits from './components/pages/Benefits';
 import Recipes from './components/pages/Recipes';
+import Testimonials from './components/pages/Testimonials';
 // import Tag from './components/Tag'
 // import Test from "./Test";
 // import Card from "./components/Card";
@@ -19,6 +20,7 @@ function App() {
       <HowItWorks/>
       <Benefits/>
       <Recipes/>
+      <Testimonials/>
 
     </div>
   );
