@@ -8,7 +8,7 @@ export default function Test() {
         <span className="text-secondary">H2</span> AIChefMate Font Syne
       </h2>
       <h3 className="text-primary font-syne text-4xl">
-        <span className="text-secondary">H3</span> AIChefMate Font Syne
+         AIChefMate Font Syne
       </h3>
       <h4 className="text-primary font-syne text-3xl">
         <span className="text-secondary">H4</span> AIChefMate Font Syne

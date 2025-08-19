@@ -17,7 +17,7 @@ export default function Button({
   onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }) {
   const commonClass =
-    'flex flex-row px-10 m-2.5  font-medium py-[18px] text-[22px] rounded-[50px] font-work-sans  cursor-pointer';
+    'flex flex-row px-10 m-2.5   font-medium py-[18px] text-[22px] rounded-[50px] font-work-sans  cursor-pointer';
 
   const varientClass = {
     primary: 'bg-primary text-white',

@@ -7,14 +7,14 @@ import author4 from '../../assets/author/author4.jpg';
 
 export default function Testimonials() {
   return (
-    <section className="mt-20 flex h-screen w-full flex-col  p-10 px-10">
+    <section className="mt-20 flex h-fit w-full flex-col p-10">
       <Heading className="mt-20 ml-32">
         <span>Testimonials</span>
         <span>
           Real stories from satisfied users: see how our platform changes lives
         </span>
       </Heading>
-      <div className="flex h-fit flex-row my-20  gap-5">
+      <div className="my-20 flex h-fit flex-row gap-5">
         <TestimonialCard
           subTitle={`Since using AIChefMate, I've rediscovered my love for cooking! The meal plans are easy and delicious. It's been a game-changer for my busy lifestyle.`}
           authorName="Emily R."
