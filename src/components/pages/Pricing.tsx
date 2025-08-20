@@ -1,6 +1,6 @@
 import Heading from '../Heading';
 import pricingSplashImage from '../../assets/pricingSplashImage.jpg';
-import PricingCard from '../cards/pricingCard';
+import PricingCard from '../cards/PricingCard';
 
 export default function Testimonials() {
   const freeFeatures = [
@@ -22,7 +22,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="flex h-screen w-full flex-col">
+    <section className="flex h-screen w-full flex-col mb-120">
       <Heading className=" ml-32">
         <span>Pricing</span>
         <span>Find your perfect plan: tailored pricing for every need</span>

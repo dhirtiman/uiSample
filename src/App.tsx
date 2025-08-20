@@ -7,6 +7,8 @@ import Benefits from './components/pages/Benefits';
 import Recipes from './components/pages/Recipes';
 import Testimonials from './components/pages/Testimonials';
 import Pricing from './components/pages/Pricing'
+import HealthyInsights from './components/pages/HealthyInsights';
+import FAQPage from './components/pages/FAQPage';
 // import Tag from './components/Tag'
 // import Test from "./Test";
 // import Card from "./components/Card";
@@ -23,6 +25,8 @@ function App() {
       <Recipes/>
       <Testimonials/>
       <Pricing/>
+      <HealthyInsights/>
+      <FAQPage/>
 
     </div>
   );

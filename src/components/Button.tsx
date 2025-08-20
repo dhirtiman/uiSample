@@ -17,7 +17,7 @@ export default function Button({
   onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }) {
   const commonClass =
-    'flex flex-row px-10 m-2.5   font-medium py-[18px] text-[22px] rounded-[50px] font-work-sans  cursor-pointer';
+    'flex flex-row  m-2.5 font-medium  text-[22px] rounded-[50px] font-work-sans  cursor-pointer';
 
   const varientClass = {
     primary: 'bg-primary text-white',
@@ -29,7 +29,7 @@ export default function Button({
     return (
       <button
         onClick={onClick}
-        className={`${commonClass} ${varientClass.secondary} border-primary w-fit border-2 ${className}`}
+        className={`${commonClass} ${varientClass.secondary} py-[18px] px-10 border-primary w-fit border-2 ${className}`}
       >
         {children}
         <img
@@ -43,7 +43,7 @@ export default function Button({
     return (
       <button
         onClick={onClick}
-        className={`${varientClass[varient]} ${commonClass} border-primary border-2 ${className} `}
+        className={`${varientClass[varient]} ${commonClass} py-4 px-4 border-primary border-2 ${className} `}
       >
         <img src={rightArrow} className="size-[22px]" alt="rightArrow" />
       </button>
@@ -52,7 +52,7 @@ export default function Button({
     return (
       <button
         onClick={onClick}
-        className={`${commonClass} ${varientClass[varient]} ${className} `}
+        className={`${commonClass} py-[18px] px-10 ${varientClass[varient]} ${className} `}
       >
         {children}
       </button>
