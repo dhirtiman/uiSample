@@ -9,6 +9,8 @@ import Testimonials from './components/pages/Testimonials';
 import Pricing from './components/pages/Pricing'
 import HealthyInsights from './components/pages/HealthyInsights';
 import FAQPage from './components/pages/FAQPage';
+import Assistance from './components/pages/Assistance';
+import Footer from './components/pages/Footer';
 // import Tag from './components/Tag'
 // import Test from "./Test";
 // import Card from "./components/Card";
@@ -27,7 +29,8 @@ function App() {
       <Pricing/>
       <HealthyInsights/>
       <FAQPage/>
-
+      <Assistance/>
+      <Footer/>
     </div>
   );
 }

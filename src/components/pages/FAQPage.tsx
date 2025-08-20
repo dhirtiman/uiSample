@@ -49,7 +49,7 @@ export default function FAQPage() {
   ];
 
   return (
-    <section className="mt-10 flex h-screen w-full  flex-col p-10">
+    <section className="mt-10 flex h-fit w-full  flex-col p-10">
       <Heading className="mt-10 ml-32">
         <span>Frequently Asked Questions</span>
         <span>Meal planning made easy: your questions, answered</span>
